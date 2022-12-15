@@ -1,0 +1,26 @@
+{
+  "name": "flatdango",
+  "version": "1.0.0",
+  "description": "An application web that allows persons to purchase Movie Tickets from theatre",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fela-Supa/Flatdango.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "json-db",
+    "fetch."
+  ],
+  "author": "Alvin Njonjo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fela-Supa/Flatdango/issues"
+  },
+  "homepage": "https://github.com/fela-Supa/Flatdango#readme"
+}

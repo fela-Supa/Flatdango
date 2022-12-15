@@ -1,67 +1,38 @@
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Code Challenge</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"
-    />
-    <link rel="stylesheet" href="assets/index.css" />
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flatdango-code-challenge</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <!-- navbar -->
-    <div class="heading">
-      <div class="item">
-        <h2 class="ui header">
-          <i class="orange ticket icon"></i>
-          <div class="content">FLATDANGO</div>
-          <div class="sub header" id="subtitle">BUY MOVIE TICKETS</div>
-        </h2>
+    <h1>Flatdango</h1>
+    <section>
+      <div id="movie-menu">
+        <h2>Movies</h2>
+        <ul id="films">
+          <li class="filmItem">PlaceHolder li</li>
+        </ul>
       </div>
-    </div>
-
-    <div class="ui centered grid">
-      <div class="four wide column">
-        <div class="list-container">
-          <!-- side menu -->
-          <ul class="ui divided list" id="films">
-            
-          </ul>
-        </div>
-      </div>
-
-      <!-- poster -->
-      <div class="four wide column">
+      <div id="movie-display">
+        <h3 id="movie-title" class="movieTitle">Movie Title</h3>
         <img
-          id="poster"
-          src="assets/placeholderImage.png"
-          alt="[MOVIE TITLE]"
+          id="movie-poster"
+          src=""
+          alt="Movie Poster"
         />
+        <div id="showtime" class="showTime">showtime</div>
+        <div id="runtime" class="runTime">runtime</div>
       </div>
+    </section>
 
-      <!-- showing info -->
-      <div class="four wide column">
-        <div class="ui cards" id="showing">
-          <div class="card">
-            <!-- <div id="title" class="title">[MOVIE TITLE]</div>
-            <div id="runtime" class="meta">[RUNTIME] minutes</div>
-            <div class="content">
-              <div class="description">
-                <div id="film-info">[INSERT MOVIE DESCRIPTION HERE]</div>
-                <span id="showtime" class="ui label">[SHOWTIME]</span>
-                <span id="ticket-num">[X]</span> remaining tickets
-              </div>
-            </div>
-            <div class="extra content">
-              <button id="buy-ticket" class="ui orange button">
-                Buy Ticket
-              </button>
-            </div> -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <script src="src/index.js"></script>
+    <section>
+      <div id="ticket-counter"></div>
+      <div>Tickets remaining</div>
+      <button id="buy-ticket">Buy Tickets</button>
+    </section>
+    <script type="text/javascript" src="./index.js"></script>
+    
   </body>
 </html>

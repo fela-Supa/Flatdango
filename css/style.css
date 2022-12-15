@@ -1,0 +1,10 @@
+img{
+    width: 400px;
+    height: 400px;
+
+}
+section#movie-tickets{
+    position: relative;
+    left:700px;
+    top:-340px;
+}
