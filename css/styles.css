@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    /* background: rgb(168, 48, 83);
+    background: radial-gradient(
+      circle,
+      rgba(168, 48, 83, 1) 0%,
+      rgba(2, 2, 3, 1) 100%
+    ); */
+    height: 100vh;
+    background-image: url("../src/red-background-movie.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  nav {
+    width: 100%;
+    background-color: rgba(248, 48, 88, 0.509);
+    text-align: center;
+  }
+  h1 {
+    padding: 20px;
+    color: rgb(191, 189, 189);
+  }
+  h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  
+  main {
+    color: azure;
+    height: 100%;
+    display: flex;
+    gap: 200px;
+  }
+  
+  .moviesList {
+    width: 25%;
+    height: 100%;
+    margin: 20px;
+  }
+  ul {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.748);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 4px rgb(70, 44, 49);
+  }
+  .moviesList li {
+    padding: 18px;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+    list-style: none;
+    border-radius: 5px;
+  }
+  .moviesList li:last-child {
+    border-bottom: none;
+  }
+  
+  .moviesDetails {
+    margin-top: 30px;
+    width: 75%;
+    display: flex;
+    height: 100%;
+  }
+  
+  #movieDetails {
+    position: relative;
+    height: 88%;
+    width: 65%;
+    background-color: rgba(0, 0, 0, 0.748);
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 3px 3px 10px 4px rgb(70, 44, 49);
+  }
+  #movieDetails div {
+    margin-left: 10px;
+  }
+  h2 {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+  }
+  .moviesDetails img {
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  span {
+    color: aqua;
+    font-size: 1.3rem;
+  }
+  .customtitles {
+    color: rgb(248, 48, 88);
+  }
+  
+  .custombtn {
+    position: absolute;
+    background-color: rgb(248, 48, 88);
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+    padding: 10px;
+    color: azure;
+    font-size: 1.5rem;
+    left: 400px;
+    bottom: 80px;
+  }
+  p {
+    margin-bottom: 6px;
+  }
+  .soldOut {
+    background-color: aqua;
+    color: crimson;
+  }

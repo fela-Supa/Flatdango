@@ -2,7 +2,7 @@
   "name": "flatdango",
   "version": "1.0.0",
   "description": "An application web that allows persons to purchase Movie Tickets from theatre",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "npm test"
   },

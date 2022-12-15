@@ -1,38 +1,42 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flatdango-code-challenge</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>Flatdango</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1>Flatdango</h1>
-    <section>
-      <div id="movie-menu">
-        <h2>Movies</h2>
-        <ul id="films">
-          <li class="filmItem">PlaceHolder li</li>
-        </ul>
-      </div>
-      <div id="movie-display">
-        <h3 id="movie-title" class="movieTitle">Movie Title</h3>
-        <img
-          id="movie-poster"
-          src=""
-          alt="Movie Poster"
-        />
-        <div id="showtime" class="showTime">showtime</div>
-        <div id="runtime" class="runTime">runtime</div>
-      </div>
-    </section>
-
-    <section>
-      <div id="ticket-counter"></div>
-      <div>Tickets remaining</div>
-      <button id="buy-ticket">Buy Tickets</button>
-    </section>
-    <script type="text/javascript" src="./index.js"></script>
-    
+    <nav>
+      <h1>FlatDango Movie & Theater 📽️</h1>
+    </nav>
+    <main>
+      <!-- movies list section -->
+      <section class="moviesList">
+        <div>
+          <h3 class="customtitles">Movies coming up 🍿🎉</h3>
+          <ul id="moviesList">
+            <!-- <li class="list-group-item" id="movieList"></li> -->
+          </ul>
+        </div>
+      </section>
+      <!-- movie details section -->
+      <section class="moviesDetails">
+        <div id="movieDetails">
+          <!-- <img src="" alt="">
+            <div>
+            <h2 id="movieTitle" class= "customtitles"></h2>
+            <p id="description"></p>
+            <p id="runtime">minutes</p>
+            <p id="showtime"></p>
+            <p id="capacity"></p>
+            <p id="ticketssold"></p>
+            <button class="btn custombtn" id="buyTickect"></button> -->
+          <!-- </div> -->
+        </div>
+      </section>
+    </main>
+    <script src="./src/index.js"></script>
   </body>
 </html>
