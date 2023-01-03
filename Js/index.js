@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
   <p id="availableTickets">Available tickets: <span>${
     movie.capacity - movie.tickets_sold
   }</span></p>
-  <button class="custombtn" id="buyTicket">buy ticket 🎟️</button>
+  <button class="custombtn" id="buyTicket">buy ticket(s)🎟️</button>
  </div>`;
 
     movieDetailsContainer.innerHTML = "";
@@ -64,13 +64,16 @@ document.addEventListener("DOMContentLoaded", () => {
     if (remainingTickets > 0) {
       movie.tickets_sold++;
       remainingTickets--;
-      btn.innerHTML = "buy tickets 🎟️";
+      btn.innerHTML = "buy ticket 🎟️";
     } else {
-      btn.innerHTML = "sold out";
+      btn.innerHTML = "sold out ⌛";
       btn.classList.add("soldOut");
     }
     ticketsSold.innerHTML = `Tickets sold: <span>${movie.tickets_sold}</span>`;
     availableTickets.innerHTML = `Available tickets: <span>${remainingTickets}</span>`;
   }
 });
-//some ideas got from M.saina all rights reserved
+
+
+
+// Some assisted from Mercy Saina copyright all rights reserved.
